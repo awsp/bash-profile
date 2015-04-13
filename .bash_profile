@@ -5,13 +5,16 @@ alias doc="cd /Users/$USER/Documents"
 alias desktop="cd /Users/$USER/Desktop"
 
 # Current user's downloads
-alias desktop="cd /Users/$USER/Downloads"
+alias downloads="cd /Users/$USER/Downloads"
 
 # Current user's home
 alias home="cd /Users/$USER"
 
 # Serve current folder as a simple http server
-alias serve='python -m SimpleHTTPServer 7777'
+alias serve="python -m SimpleHTTPServer 7777"
+
+# Reload bash_profile
+alias reload="source /Users/$USER/.bash_profile"
 
 #ULimit
 ulimit -n 10240
