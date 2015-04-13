@@ -1,3 +1,4 @@
-.bash_profile
+Environment Settings (Mac OS X)
 ---------
-.bash_profile base model. 
+* `.bash_profile`  .bash_profile base model. 
+* `homebrew.sh`    Homebrew setup
