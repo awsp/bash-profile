@@ -16,6 +16,9 @@ alias serve="python -m SimpleHTTPServer 7777"
 # Reload bash_profile
 alias reload="source /Users/$USER/.bash_profile"
 
+# Fast-edit of bash_profile
+alias profile="vi /Users/$USER/.bash_profile"
+
 #ULimit
 ulimit -n 10240
 
