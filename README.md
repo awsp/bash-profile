@@ -6,6 +6,12 @@ Environment Settings (Mac OS X)
 
 
 
+Colorful Terminal 
+--------
+Link to [color-terminal](https://github.com/awsp/colorful-terminal)
+
+
+
 ### ToDo
 * Add a shell script and package.json to install global npm packages
     * less
