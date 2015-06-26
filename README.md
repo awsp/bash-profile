@@ -8,6 +8,7 @@ Environment Settings (Mac OS X)
 * `ssh-login-without-password.md`  Login SSH without Password. See [here](ssh-login-without-password.md)
 * `npm_packages.sh`                Useful NPM packages in global
 * `git_cheat_sheet.pdf`             Git cheat sheet
+* `reset_path_var.md`               Reset PATH
 
 
 
