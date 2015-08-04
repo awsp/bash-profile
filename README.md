@@ -1,6 +1,6 @@
 Environment Settings (Mac OS X)
 ---------
-* `.bash_profile`                  .bash_profile base model.
+* `.bash_profile`                  .bash_profile base model. - Located at `~/`
 * `install_homebrew.sh`            Homebrew setup
 * `uninstall_homebrew.sh`          Uninstall Homebrew setup, ./uninstall_homebrew --help for more options
 * `install_xcode.sh`               XCode setup
@@ -9,7 +9,7 @@ Environment Settings (Mac OS X)
 * `npm_packages.sh`                Useful NPM packages in global
 * `git_cheat_sheet.pdf`             Git cheat sheet
 * `reset_path_var.md`               Reset PATH
-* `.vimrc`			   VIM options
+* `.vimrc`			   VIM options - Located at `~/`
 
 
 
