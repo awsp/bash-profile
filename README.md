@@ -9,6 +9,7 @@ Environment Settings (Mac OS X)
 * `npm_packages.sh`                Useful NPM packages in global
 * `git_cheat_sheet.pdf`             Git cheat sheet
 * `reset_path_var.md`               Reset PATH
+* `spdchrome.sh`                  Speed up Google Chrome by moving the whole application and cache into ramdisk. (Require `chmod +x spdchrome.sh` to use)
 * `.vimrc`			   VIM options - Located at `~/`
 
 
