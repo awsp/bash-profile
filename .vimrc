@@ -10,3 +10,15 @@ set shiftwidth=2
 set softtabstop=2
 set tabstop=2
 set expandtab
+
+:imap jj <ESC>
+inoremap { {}<Left>
+inoremap [ []<Left>
+inoremap ( ()<Left>
+inoremap " ""<Left>
+inoremap ' ''<Left>
+
+inoremap <C-j> <Down>
+inoremap <C-k> <Up>
+inoremap <C-h> <Left>
+inoremap <C-l> <Right>

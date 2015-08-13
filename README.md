@@ -11,6 +11,7 @@ Environment Settings (Mac OS X)
 * `reset_path_var.md`               Reset PATH
 * `spdchrome.sh`                  Speed up Google Chrome by moving the whole application and cache into ramdisk. (Require `chmod +x spdchrome.sh` to use)
 * `.vimrc`			   VIM options - Located at `~/`
+* `.ideavimrc`     Intellij Idea plugin, IdeaVim
 
 
 
