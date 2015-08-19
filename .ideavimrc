@@ -18,3 +18,7 @@ noremap 1 ^
 
 " Enter in insert mode"
 nnoremap <Enter> i<CR><ESC>h
+
+" Fast ending
+:imap ,, <ESC>$a,
+:imap ;; <ESC>$a;

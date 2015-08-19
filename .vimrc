@@ -22,15 +22,12 @@ nnoremap k gk
 :imap jj <ESC> 
 :imap kj <ESC>l
 
+" fast ending"
+:imap ,, <ESC>$,
+:imap ;; <ESC>$;
+
 " highlight last inserted text"
 nnoremap gV `[v`]
-
-" Auto complete symbols"
-inoremap { {}<Left>
-inoremap [ []<Left>
-inoremap ( ()<Left>
-inoremap " ""<Left>
-inoremap ' ''<Left>
 
 " Move cursor even in insert mode"
 inoremap <C-j> <Down>
@@ -50,3 +47,6 @@ noremap 1 ^
 :map <Enter> i<CR><Esc>h
 
 set guifont=Monaco:h14
+
+let g:multi_cursor_next_key='<C-n>'
+nnoremap sjis <Esc>:e ++enc=shift-jis<Enter>
