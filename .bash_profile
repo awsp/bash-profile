@@ -19,10 +19,22 @@ alias reload="source /Users/$USER/.bash_profile"
 # Fast-edit of bash_profile
 alias profile="vi /Users/$USER/.bash_profile"
 
-#ULimit
+# ULimit
 ulimit -n 10240
 
+# Homebrew src directory
+alias homebrew.src='cd /usr/local/Cellar'
 
+# Nginx src directory
+alias nginx.src='cd /usr/local/etc/nginx'
+
+# Nginx PHP controls
+alias nginx.start='launchctl load -w ~/Library/LaunchAgents/homebrew.mxcl.php55.plist'
+alias nginx.stop='launchctl unload -w ~/Library/LaunchAgents/homebrew.mxcl.php55.plist'
+
+# Nginx MySQL controls
+alias mysql.start='launchctl load -w ~/Library/LaunchAgents/homebrew.mxcl.mysql.plist'
+alias mysql.stop='launchctl unload -w ~/Library/LaunchAgents/homebrew.mxcl.mysql.plist'
 
 
 # Colorful Terminal

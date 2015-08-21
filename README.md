@@ -24,3 +24,11 @@ Link to [color-terminal](https://github.com/awsp/colorful-terminal)
 Homebrew Documentation
 --------
 [FAQ](https://github.com/Homebrew/homebrew/blob/master/share/doc/homebrew/FAQ.md)
+
+
+TODO
+--------
+- [ ] Add `zafarella/OSX-RAMDisk` submodule
+- [ ] Add Nginx Configuration
+- [ ] Restructure files into folders
+- [ ] Simple SSH login without password instruction to .bash_profile
