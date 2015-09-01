@@ -21,4 +21,3 @@ nnoremap <Enter> i<CR><ESC>h
 
 " Fast ending
 :imap ,, <ESC>$a,
-:imap ;; <ESC>$a;
