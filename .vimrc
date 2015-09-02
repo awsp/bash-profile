@@ -22,9 +22,6 @@ nnoremap k gk
 :imap jj <ESC> 
 :imap kj <ESC>l
 
-" fast ending"
-:imap ,, <ESC>$,
-
 " highlight last inserted text"
 nnoremap gV `[v`]
 
