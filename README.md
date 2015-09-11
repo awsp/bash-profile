@@ -13,6 +13,7 @@ Environment Settings (Mac OS X)
 * `.vimrc`			   VIM options - Located at `~/`
 * `.ideavimrc`     Intellij Idea plugin, IdeaVim
 * `vim.md`    VIM manual
+* `my_configs`                     My configs used in amix/vimrc
 
 
 

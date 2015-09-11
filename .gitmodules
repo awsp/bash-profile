@@ -1,0 +1,3 @@
+[submodule "awesome-vimrc"]
+	path = awesome-vimrc
+	url = https://github.com/awsp/vimrc
