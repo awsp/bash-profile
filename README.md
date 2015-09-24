@@ -14,6 +14,7 @@ Environment Settings (Mac OS X)
 * `.ideavimrc`     Intellij Idea plugin, IdeaVim
 * `vim.md`    VIM manual
 * `my_configs`                     My configs used in amix/vimrc
+* `elementaryos.md`  Linux distribution of Elementary OS
 
 
 
