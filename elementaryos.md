@@ -28,3 +28,40 @@ When asked to update user preferences, select "Yes".
 Select fcitx from the list, and select "OK".
 Restart your computer, and you should see an icon for fcitx in the wingpanel. 
 ```
+
+### Adding supports for UI for advanced searching for files
+```
+sudo apt-get install gnome-search-tool
+sudo touch /usr/share/contractor/find.contract
+sudo vi /usr/share/contractor/find.contract
+```
+
+```
+[Contractor Entry]
+Name=Advanced Search...
+Description=Find files
+MimeType=inode;application/x-sh;application/x-executable;
+Exec=gnome-search-tool --path=%f %U
+```
+
+
+### Adding JRE
+```
+sudo apt-get install icedtea-7-plugin openjdk-7-jre
+```
+
+### Adding Kirada (Drawing)
+```
+sudo apt-get install krita
+```
+
+### Adding vLC
+```
+sudo apt-get install vlc
+```
+
+
+
+
+
+
