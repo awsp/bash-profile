@@ -11,11 +11,18 @@ sudo apt-get update
 sudo apt-get install elementary-tweaks
 ```
 
-### Adding node.js support 
+### Adding node.js support (This will install 0.10.x only) 
 ```
 sudo apt-get install nodejs
 sudo ln -s `which nodejs` /usr/bin/node
 ```
+
+From: http://askubuntu.com/questions/672994/how-to-install-nodejs-4-on-ubuntu-15-04-64-bit-edition
+```
+wget -qO- https://deb.nodesource.com/setup_4.x | sudo bash -
+sudo apt-get install --yes nodejs
+```
+
 
 ### Adding Japanese IME, Tradional Chinese, Simplified Chinese support
 ```
