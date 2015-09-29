@@ -20,6 +20,10 @@ brew install nginx-full --with-geoip --with-upload-progress-module
 brew install mysql
 
 
+# install tree
+brew install tree
+
+
 # install php 5.5 + apcu + mcrypt + opcache + solr + xdebug
 brew install --with-fpm --with-mysql php55
 brew install php55-apcu php55-mcrypt php55-solr php55-xdebug
