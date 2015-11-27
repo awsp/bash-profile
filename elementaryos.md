@@ -24,6 +24,29 @@ sudo apt-get install --yes nodejs
 ```
 
 
+### Screen Resolution (Virtual Box)
+Menu bar -> Devices -> Insert Guest Additions CD image
+sh ./VBoxLinuxAdditions.run
+
+Restart -> Display -> Change resolution
+
+
+
+### Vim
+sudo apt-get install vim
+
+[Optional]
+sudo rm /usr/bin/vi
+sudo ln -s /usr/bin/vim /usr/bin/vi
+
+
+
+### Mac OS X Cmd Key Behavior
+System Settings -> Keyboard -> Options -> 
+    Check `Control is mapped to Alt keys, Alt is mapped to Win Keys`
+
+
+
 ### Adding Japanese IME, Tradional Chinese, Simplified Chinese support
 ```
 Add the Fcitx repository: sudo add-apt-repository ppa:fcitx-team/nightly
