@@ -57,6 +57,14 @@ Select "OK", on the dialog box that pops up.
 When asked to update user preferences, select "Yes".
 Select fcitx from the list, and select "OK".
 Restart your computer, and you should see an icon for fcitx in the wingpanel. 
+
+For Japanese IME
+- Add new input method, search by `moc` 
+
+For Chinese IME
+- ADd new input method, search by `cangjie`
+
+
 ```
 
 ##### Extra `fcitx-table-extra`
