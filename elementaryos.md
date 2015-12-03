@@ -12,16 +12,25 @@ sudo apt-get install elementary-tweaks
 ```
 
 ### Adding node.js support (This will install 0.10.x only) 
+##### Using `apt-get` with offical
 ```
 sudo apt-get install nodejs
 sudo ln -s `which nodejs` /usr/bin/node
 ```
 
+##### Using `apt-get` with custom source
 From: http://askubuntu.com/questions/672994/how-to-install-nodejs-4-on-ubuntu-15-04-64-bit-edition
 ```
 wget -qO- https://deb.nodesource.com/setup_4.x | sudo bash -
 sudo apt-get install --yes nodejs
 ```
+
+##### Using `n` [Recommended]
+```
+curl -L http://git.io/n-install | bash
+```
+Restart shell
+
 
 
 ### Screen Resolution (Virtual Box)
