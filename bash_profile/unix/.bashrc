@@ -3,6 +3,7 @@ alias profile="vi ~/.bash_profile"
 alias doc="cd ~/Documents"
 alias code="cd ~/Code"
 alias home="cd ~"
+alias open="xdg-open"
 
 
 
