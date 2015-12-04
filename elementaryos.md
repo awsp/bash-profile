@@ -32,6 +32,20 @@ curl -L http://git.io/n-install | bash
 Restart shell
 
 
+##### Apache
+apt-get install apache2
+
+
+##### PHP
+apt-get install php5-mysql php5-sqlite php5-curl php5-cgi php5-cli php5-curl php5-odbc php5-xdebug php5-mongo php5-imap php5-memcache
+
+
+
+##### MySQL
+apt-get install mysql-server libapache2-mod-auth-mysql php5-mysql
+
+
+
 
 ### Screen Resolution (Virtual Box)
 Menu bar -> Devices -> Insert Guest Additions CD image
