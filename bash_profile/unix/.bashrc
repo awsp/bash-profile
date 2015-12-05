@@ -5,8 +5,9 @@ alias code="cd ~/Code"
 alias home="cd ~"
 alias open="xdg-open"
 
-
-
+# Git related
+alias git.origin="git remote -v"
+alias git.origin.set="git remote set-url origin"
 
 
 # Colorful Terminal

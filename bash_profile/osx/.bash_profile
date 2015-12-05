@@ -19,6 +19,10 @@ alias bashreload="source /Users/$USER/.bash_profile"
 # Fast-edit of bash_profile
 alias profile="vi /Users/$USER/.bash_profile"
 
+# Git related
+alias git.origin="git remote -v"
+alias git.origin.set="git remote set-url origin"
+
 # ULimit
 ulimit -n 10240
 
