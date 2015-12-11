@@ -36,6 +36,7 @@ Restart shell
 apt-get install apache2
 
 
+
 ##### PHP
 apt-get install php5-mysql php5-sqlite php5-curl php5-cgi php5-cli php5-curl php5-odbc php5-xdebug php5-mongo php5-imap php5-memcache
 
@@ -43,7 +44,6 @@ apt-get install php5-mysql php5-sqlite php5-curl php5-cgi php5-cli php5-curl php
 
 ##### MySQL
 apt-get install mysql-server libapache2-mod-auth-mysql php5-mysql
-
 
 
 
@@ -67,6 +67,12 @@ sudo ln -s /usr/bin/vim /usr/bin/vi
 ### Mac OS X Cmd Key Behavior
 System Settings -> Keyboard -> Options -> 
     Check `Control is mapped to Alt keys, Alt is mapped to Win Keys`
+
+
+#### Kupfer - QuickSilver-like Quick Launcher (Ctrl+Space)
+```
+$ sudo apt-get install kupfer
+```
 
 
 
