@@ -13,7 +13,6 @@ alias git.origin.set="git remote set-url origin"
 # Colorful Terminal
 # https://github.com/awsp/colorful-terminal
 export CLICOLOR=1
-alias ls='ls -Fa'
 
 # define colors
 C_DEFAULT="\[\033[m\]"
@@ -44,3 +43,8 @@ C_BG_LIGHTGRAY="\[\033[47m\]"
 
 # set your prompt
 export PS1="$C_LIGHTGREEN\u$C_DARKGRAY@$C_BLUE\h $C_DARKGRAY: $C_LIGHTYELLOW\w$C_DARKGRAY\$$C_DEFAULT "
+
+
+alias ls='ls -Fa --color'
+LS_COLORS='di=4;96:fi=0:ln=31:pi=5:so=5:bd=5:cd=5:or=31:mi=0:ex=35:*.rpm=90'
+export LS_COLORS
