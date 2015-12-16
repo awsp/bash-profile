@@ -64,9 +64,14 @@ sudo ln -s /usr/bin/vim /usr/bin/vi
 
 
 
-### Mac OS X Cmd Key Behavior
+### Mac OS X Behavior
+- Map Ctrl key to Alt
 System Settings -> Keyboard -> Options -> 
     Check `Control is mapped to Alt keys, Alt is mapped to Win Keys`
+
+- Re-map Alt-Tab to Ctrl-Tab 
+System Settings -> Keyboard -> Shortcuts -> Windows -> Switch Windows, Switch Windows Backwards, Show all windows
+
 
 
 #### Kupfer - QuickSilver-like Quick Launcher (Ctrl+Space)
