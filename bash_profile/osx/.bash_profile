@@ -75,3 +75,5 @@ C_BG_LIGHTGRAY="\[\033[47m\]"
 
 # set your prompt
 export PS1="$C_LIGHTGREEN\u$C_DARKGRAY@$C_BLUE\h $C_DARKGRAY: $C_LIGHTYELLOW\w$C_DARKGRAY\$$C_DEFAULT "
+
+export LSCOLORS="fxfxcxdxbxegedabagacad"
