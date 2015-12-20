@@ -1,4 +1,5 @@
-Environment Settings (Mac OS X)
+E
+vironment Settings (Mac OS X)
 ---------
 * `.bash_profile`                  .bash_profile base model. - Located at `~/`
 * `install_homebrew.sh`            Homebrew setup
@@ -26,6 +27,15 @@ Link to [color-terminal](https://github.com/awsp/colorful-terminal)
 Homebrew Documentation
 --------
 [FAQ](https://github.com/Homebrew/homebrew/blob/master/share/doc/homebrew/FAQ.md)
+
+
+Awesome VIM
+-------
+[Github](https://github.com/amix/vimrc)
+```
+git clone https://github.com/amix/vimrc.git ~/.vim_runtime
+sh ~/.vim_runtime/install_awesome_vimrc.sh
+```
 
 
 TODO
