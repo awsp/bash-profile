@@ -1,5 +1,4 @@
-E
-vironment Settings (Mac OS X)
+Evironment Settings (Mac OS X)
 ---------
 * `.bash_profile`                  .bash_profile base model. - Located at `~/`
 * `install_homebrew.sh`            Homebrew setup

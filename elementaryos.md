@@ -32,23 +32,23 @@ curl -L http://git.io/n-install | bash
 Restart shell
 
 
-#### G++, gcc, make
+### G++, gcc, make
 ```
 sudo apt-get install build-essential
 ```
 
 
-##### Apache
+#### Apache
 apt-get install apache2
 
 
 
-##### PHP
+#### PHP
 apt-get install php5-mysql php5-sqlite php5-curl php5-cgi php5-cli php5-curl php5-odbc php5-xdebug php5-mongo php5-imap php5-memcache
 
 
 
-##### MySQL
+#### MySQL
 apt-get install mysql-server libapache2-mod-auth-mysql php5-mysql
 
 
@@ -160,7 +160,7 @@ sudo apt-get install icedtea-7-plugin openjdk-7-jre
 sudo apt-get install krita
 ```
 
-### Adding vLC
+### Adding VLC
 ```
 sudo apt-get install vlc
 ```
