@@ -32,6 +32,12 @@ curl -L http://git.io/n-install | bash
 Restart shell
 
 
+#### G++, gcc, make
+```
+sudo apt-get install build-essential
+```
+
+
 ##### Apache
 apt-get install apache2
 
