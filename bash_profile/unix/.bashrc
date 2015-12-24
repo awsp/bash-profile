@@ -45,6 +45,6 @@ C_BG_LIGHTGRAY="\[\033[47m\]"
 export PS1="$C_LIGHTGREEN\u$C_DARKGRAY@$C_BLUE\h $C_DARKGRAY: $C_LIGHTYELLOW\w$C_DARKGRAY\$$C_DEFAULT "
 
 
-alias ls='ls -Fa --color'
+alias ls='ls -lhFa --color'
 LS_COLORS='di=4;96:fi=0:ln=31:pi=5:so=5:bd=5:cd=5:or=31:mi=0:ex=35:*.rpm=90'
 export LS_COLORS

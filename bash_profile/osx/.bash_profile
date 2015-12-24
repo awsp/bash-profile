@@ -44,7 +44,7 @@ alias mysql.stop='launchctl unload -w ~/Library/LaunchAgents/homebrew.mxcl.mysql
 # Colorful Terminal
 # https://github.com/awsp/colorful-terminal
 export CLICOLOR=1
-alias ls='ls -Fa'
+alias ls='ls -lhFa'
 
 # define colors
 C_DEFAULT="\[\033[m\]"
