@@ -4,6 +4,7 @@ alias doc="cd ~/Documents"
 alias code="cd ~/Code"
 alias home="cd ~"
 alias open="xdg-open"
+alias server="python -m SimpleHTTPServer 8080"
 
 # Git related
 alias git.origin="git remote -v"
