@@ -59,6 +59,19 @@ sh ./VBoxLinuxAdditions.run
 
 Restart -> Display -> Change resolution
 
+#### Custom Screen Resolution
+```sh
+# Generate Modeline
+cvt 1440 900 60
+
+
+sudo xrandr --newmode [whatever you get from the above command]
+
+sudo xrandr --addmode VGA-0 1440x900_60.00
+```
+
+
+
 
 
 ### Vim
