@@ -69,6 +69,7 @@ sudo xrandr --newmode [whatever you get from the above command]
 
 sudo xrandr --addmode VGA-0 1440x900_60.00
 ```
+PS: xrandr is not retained after reboot. To enable it from boot, activate it via `gnome-session-properties` and add the `eosa_resolution.sh` file
 
 
 
