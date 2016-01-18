@@ -5,7 +5,7 @@ Currently on version 0.0.4 Fleya
 
 
 ### More tweaks by install the package. 
-```
+```sh
 sudo add-apt-repository ppa:mpstark/elementary-tweaks-daily
 sudo apt-get update
 sudo apt-get install elementary-tweaks
@@ -13,49 +13,56 @@ sudo apt-get install elementary-tweaks
 
 ### Adding node.js support (This will install 0.10.x only) 
 ##### Using `apt-get` with offical
-```
+```sh
 sudo apt-get install nodejs
 sudo ln -s `which nodejs` /usr/bin/node
 ```
 
 ##### Using `apt-get` with custom source
 From: http://askubuntu.com/questions/672994/how-to-install-nodejs-4-on-ubuntu-15-04-64-bit-edition
-```
+```sh
 wget -qO- https://deb.nodesource.com/setup_4.x | sudo bash -
 sudo apt-get install --yes nodejs
 ```
 
 ##### Using `n` [Recommended]
-```
+```sh
 curl -L http://git.io/n-install | bash
 ```
 Restart shell
 
 
 ### G++, gcc, make
-```
+```sh
 sudo apt-get install build-essential
 ```
 
 
 #### Apache
+```sh
 apt-get install apache2
+```
 
 
 
 #### PHP
+```sh
 apt-get install php5-mysql php5-sqlite php5-curl php5-cgi php5-cli php5-curl php5-odbc php5-xdebug php5-mongo php5-imap php5-memcache
-
+```
 
 
 #### MySQL
+```sh
 apt-get install mysql-server libapache2-mod-auth-mysql php5-mysql
+```
 
 
 
 ### Screen Resolution (Virtual Box)
 Menu bar -> Devices -> Insert Guest Additions CD image
+```sh
 sh ./VBoxLinuxAdditions.run
+```
 
 Restart -> Display -> Change resolution
 
@@ -76,11 +83,15 @@ PS: xrandr is not retained after reboot. To enable it from boot, activate it via
 
 
 ### Vim
+```sh
 sudo apt-get install vim
+```
 
 [Optional]
+```sh
 sudo rm /usr/bin/vi
 sudo ln -s /usr/bin/vim /usr/bin/vi
+```
 
 
 
@@ -95,14 +106,14 @@ System Settings -> Keyboard -> Shortcuts -> Windows -> Switch Windows, Switch Wi
 
 
 #### Kupfer - QuickSilver-like Quick Launcher (Ctrl+Space)
-```
+```sh
 $ sudo apt-get install kupfer
 ```
 
 
 
 ### Adding Japanese IME, Tradional Chinese, Simplified Chinese support
-```
+```sh
 Add the Fcitx repository: sudo add-apt-repository ppa:fcitx-team/nightly
 Update package list: sudo apt-get update
 Install fcitx, fcitx-mozc, and im-config: sudo apt-get install fcitx fcitx-mozc fcitx-table-cangjie5 fcitx-pinyin fcitx-sunpinyin fcitx-googlepinyin im-config
@@ -149,13 +160,13 @@ fcitx-table-zhengma-large: Flexible Input Method Framework - Zhengma-Large table
 
 
 ### Adding supports for UI for advanced searching for files
-```
+```sh
 sudo apt-get install gnome-search-tool
 sudo touch /usr/share/contractor/find.contract
 sudo vi /usr/share/contractor/find.contract
 ```
 
-```
+```sh
 [Contractor Entry]
 Name=Advanced Search...
 Description=Find files
@@ -165,17 +176,17 @@ Exec=gnome-search-tool --path=%f %U
 
 
 ### Adding JRE
-```
+```sh
 sudo apt-get install icedtea-7-plugin openjdk-7-jre
 ```
 
 ### Adding Kirada (Drawing)
-```
+```sh
 sudo apt-get install krita
 ```
 
 ### Adding VLC
-```
+```sh
 sudo apt-get install vlc
 ```
 
