@@ -190,8 +190,27 @@ sudo apt-get install krita
 sudo apt-get install vlc
 ```
 
+### GParted
+Used for partition
+```sh
+sudo apt-get install gparted
+```
 
 
+### Disk Utility
+```sh
+sudo apt-get install gnome-disk-utility
+```
 
 
+### Aptitude CLI
+```sh
+sudo apt-get install aptitude
+```
+
+
+### Chrome Browser
+```sh
+sudo apt-get isntall chromium-browser
+```
 
