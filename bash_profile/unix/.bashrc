@@ -10,6 +10,15 @@ alias server="python -m SimpleHTTPServer 8080"
 alias git.origin="git remote -v"
 alias git.origin.set="git remote set-url origin"
 
+# Utilities
+# Change Terminal Window's Name
+tname() {
+  if [[ -z "$ORIG" ]]; then
+    ORIG=$PS1
+  fi
+  TITLE="\[\e]2;$@\a\]"
+  PS1=${ORIG}${TITLE}
+}
 
 # Colorful Terminal
 # https://github.com/awsp/colorful-terminal
