@@ -10,16 +10,6 @@ alias server="python -m SimpleHTTPServer 8080"
 alias git.origin="git remote -v"
 alias git.origin.set="git remote set-url origin"
 
-# Utilities
-# Change Terminal Window's Name
-tname() {
-  if [[ -z "$ORIG" ]]; then
-    ORIG=$PS1
-  fi
-  TITLE="\[\e]2;$@\a\]"
-  PS1=${ORIG}${TITLE}
-}
-
 
 # Colorful Terminal
 # https://github.com/awsp/colorful-terminal
@@ -59,6 +49,16 @@ parse_git_branch() {
 
 # set your prompt
 export PS1="$C_LIGHTGREEN\u@$C_DARKGRAY@$C_BLUE\h $C_PURPLE[\w]$C_LIGHTGREEN\n\$(parse_git_branch) $C_DARKGRAY\$$C_DEFAULT "
+
+# Utilities
+# Change Terminal Window's Name
+tname() {
+  if [[ -z "$ORIG" ]]; then
+    ORIG=$PS1
+  fi
+  TITLE="\[\e]2;$@\a\]"
+  PS1=${ORIG}${TITLE}
+}
 
 
 alias ls='ls -lhFa --color'
