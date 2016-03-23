@@ -214,3 +214,8 @@ sudo apt-get install aptitude
 sudo apt-get isntall chromium-browser
 ```
 
+
+### Task Manager
+```sh
+sudo apt-get install gnome-system-monitor
+```

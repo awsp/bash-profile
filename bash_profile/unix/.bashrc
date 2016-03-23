@@ -51,9 +51,14 @@ C_BG_PURPLE="\[\033[45m\]"
 C_BG_CYAN="\[\033[46m\]"
 C_BG_LIGHTGRAY="\[\033[47m\]"
 
-# set your prompt
-export PS1="$C_LIGHTGREEN\u$C_DARKGRAY@$C_BLUE\h $C_DARKGRAY: $C_LIGHTYELLOW\w$C_DARKGRAY\$$C_DEFAULT "
 
+# Always display git branch in prompt
+parse_git_branch() {
+    git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
+}
+
+# set your prompt
+export PS1="$C_LIGHTGREEN\u@$C_DARKGRAY@$C_BLUE\h $C_PURPLE[\w]$C_LIGHTGREEN\n\$(parse_git_branch) $C_DARKGRAY\$$C_DEFAULT "
 
 alias ls='ls -lhFa --color'
 LS_COLORS='di=4;96:fi=0:ln=31:pi=5:so=5:bd=5:cd=5:or=31:mi=0:ex=35:*.rpm=90'
