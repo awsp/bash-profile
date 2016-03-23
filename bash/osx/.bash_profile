@@ -79,6 +79,6 @@ parse_git_branch() {
 }
 
 # set your prompt
-export PS1="$C_LIGHTGREEN\u@$C_DARKGRAY@$C_BLUE\h $C_PURPLE[\w]$C_LIGHTGREEN\n\$(parse_git_branch) $C_DARKGRAY\$$C_DEFAULT "
+export PS1="$C_LIGHTGREEN\u@$C_BLUE\h $C_PURPLE[\w]$C_LIGHTGREEN\n\$(parse_git_branch) $C_DARKGRAY\$$C_DEFAULT "
 
 export LSCOLORS="fxfxcxdxbxegedabagacad"
