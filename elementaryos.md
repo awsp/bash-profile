@@ -219,3 +219,10 @@ sudo apt-get isntall chromium-browser
 ```sh
 sudo apt-get install gnome-system-monitor
 ```
+
+### Multi-task in CLI
+```sh
+sudo apt-get install byobu
+```
+
+Byobu has keymapping located at `/usr/share/byobu/keybindings/f-keys.tmux`, so for chromebook, it's recommended to remap those keys.
