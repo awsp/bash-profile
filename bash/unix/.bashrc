@@ -1,5 +1,5 @@
-alias reload="source ~/.bash_profile"
-alias profile="vi ~/.bash_profile"
+alias reload="source ~/.bashrc"
+alias profile="vi ~/.bashrc"
 alias doc="cd ~/Documents"
 alias code="cd ~/Code"
 alias home="cd ~"
