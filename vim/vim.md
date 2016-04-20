@@ -150,3 +150,10 @@ set guifont=Monaco:h14
 ### MacVim Installation
 brew install macvim
 mvim -v (This enables MacVim in shell mode. You could also alias it in your `.bash_profile`)
+
+
+### Find out where leader is
+In normal mode, by default, it should be `,`
+```
+:echo mapleader
+```

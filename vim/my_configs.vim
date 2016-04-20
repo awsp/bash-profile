@@ -1,6 +1,7 @@
 " File: ~/.vim_runtime/my_configs.vim
 :imap jj <ESC> 
 :imap kj <ESC>l
+:imap <leader>c <ESC>
 set nu
 set nofu
 map <D-y> :NERDTreeToggle<CR>
