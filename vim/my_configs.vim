@@ -1,9 +1,10 @@
-" File: ~/.vim_runtime/my_configs.vim
-:imap jj <ESC> 
-:imap kj <ESC>l
+:imap kj <ESC>
 :imap <leader>c <ESC>
 set nu
 set nofu
+set sts=2
+set ts=2
+set sw=2
 map <D-y> :NERDTreeToggle<CR>
 map <C-y> :NERDTreeToggle<CR>
 :imap <D-d> <ESC>viw
