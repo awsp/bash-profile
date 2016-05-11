@@ -233,3 +233,12 @@ sudo apt-get install byobu
 ```
 
 Byobu has keymapping located at `/usr/share/byobu/keybindings/f-keys.tmux`, so for chromebook, it's recommended to remap those keys.
+
+### Java JDK (from Oracle)
+```sh
+sudo apt install python-software-properties
+sudo add-apt-repository ppa:webupd8team/java
+sudo apt-get update
+sudo apt install oracle-java8-installer
+sudo update-alternatives --config java
+```
