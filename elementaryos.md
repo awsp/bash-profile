@@ -25,11 +25,18 @@ wget -qO- https://deb.nodesource.com/setup_4.x | sudo bash -
 sudo apt-get install --yes nodejs
 ```
 
-##### Using `n` [Recommended]
+##### Using `n` [Recommend]
 ```sh
 curl -L http://git.io/n-install | bash
 ```
 Restart shell
+
+
+##### Using `nvm` [Recommended]
+```sh
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.31.1/install.sh | bash
+```
+
 
 
 ### G++, gcc, make
