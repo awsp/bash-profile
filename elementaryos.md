@@ -25,7 +25,7 @@ wget -qO- https://deb.nodesource.com/setup_4.x | sudo bash -
 sudo apt-get install --yes nodejs
 ```
 
-##### Using `n` [Recommend]
+##### Using `n` [Recommended]
 ```sh
 curl -L http://git.io/n-install | bash
 ```
@@ -218,7 +218,7 @@ sudo apt-get install aptitude
 
 ### Chrome Browser
 ```sh
-sudo apt-get isntall chromium-browser
+sudo apt-get install chromium-browser
 ```
 
 
