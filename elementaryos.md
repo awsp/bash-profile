@@ -118,6 +118,11 @@ $ sudo apt-get install kupfer
 ```
 
 
+### VirtualBox Shared Folder (if receive access denied in shared folder)
+```
+sudo usermod -aG vboxsf $(whoami)
+```
+
 
 ### Adding Japanese IME, Tradional Chinese, Simplified Chinese support
 ```sh
