@@ -39,3 +39,6 @@ bind-key -n C-S-F2 new-session
 bind-key -n C-M-s new-session
 ```
 
+
+## Reload Configuration 
+`F5` to refresh
