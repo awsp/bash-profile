@@ -73,3 +73,15 @@ bind-key -n C-S-F12 new-window $BYOBU_PREFIX/lib/byobu/include/mondrian
 bind-key -n M-IC paste-buffer
 
 bind-key -n C-a new-window -n "ctrl-a" "byobu-ctrl-a"
+
+
+
+
+bind-key -n M-S-Up resize-pane -U
+bind-key -n C-M-u resize-pane -U
+bind-key -n M-S-Down resize-pane -D
+bind-key -n C-M-d resize-pane -D
+bind-key -n M-S-Left resize-pane -L
+bind-key -n C-M-l resize-pane -L
+bind-key -n M-S-Right resize-pane -R
+bind-key -n C-M-r resize-pane -R
