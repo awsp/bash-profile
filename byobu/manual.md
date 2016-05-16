@@ -12,6 +12,11 @@ Switch Screen
 `Shift` + [Arrow Keys]
 
 
+## Key bindings
+Append commands to `f-keys.tmux` file located at 
+`/usr/share/byobu/keybindings`
+
+
 Key Bindings (split screen size controls) (put into f-keys.tmux)
 nd-key -n M-S-Up resize-pane -U
 bind-key -n C-M-u resize-pane -U
