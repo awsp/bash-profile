@@ -247,3 +247,13 @@ sudo apt-get update
 sudo apt install oracle-java8-installer
 sudo update-alternatives --config java
 ```
+
+Set `CLASSPATH`
+```
+export CLASSPATH=/usr/bin/...:$CLASSPATH
+```
+
+Find out where the JDK is intalled. 
+```sh
+readlink -f $(which java)
+```
