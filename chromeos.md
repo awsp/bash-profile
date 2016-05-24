@@ -19,7 +19,7 @@ press `k` to force kill chroot
 
 
 #### Running Servers
-Before running server, you need to do 2 things
+##### Note: installing DBMS such as MySQL require installing require doing the following 2 things, 
 
 Install IPTables
 ```sh
@@ -27,12 +27,17 @@ sudo apt-get install iptables
 ```
 
 
-Edit this `/etc/rc.local` file
+Edit the `/etc/rc.local` file
 ```sh
+' Optional, if you need to use Apache
 /etc/init.d/apache2 start
 
+' MySQL
 export HOME=/etc/mysql
 umask 007
 [ -d /var/run/mysqld ] || install -m 755 -o mysql -g root -d /var/run/mysqld
 /usr/sbin/mysqld &
 ```
+
+
+
