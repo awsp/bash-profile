@@ -26,6 +26,9 @@ alias git.origin.set="git remote set-url origin"
 # ULimit
 ulimit -n 10240
 
+# Mouse speed
+alias mouse.speed="defaults write -g com.apple.mouse.scaling $1"
+
 # Homebrew src directory
 alias homebrew.src='cd /usr/local/Cellar'
 
