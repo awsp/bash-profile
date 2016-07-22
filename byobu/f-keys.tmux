@@ -85,3 +85,10 @@ bind-key -n M-S-Left resize-pane -L
 bind-key -n C-M-l resize-pane -L
 bind-key -n M-S-Right resize-pane -R
 bind-key -n C-M-r resize-pane -R
+
+bind-key -n C-F2 display-panes \; split-window -h
+bind-key -n C-M-h display-panes \; split-window -h
+bind-key -n S-F2 display-panes \; split-window -v
+bind-key -n C-M-v display-panes \; split-window -v
+bind-key -n C-S-F2 new-session
+bind-key -n C-M-s new-session
