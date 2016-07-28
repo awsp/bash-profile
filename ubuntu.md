@@ -27,3 +27,7 @@ sudo apt-get install compizconfig-settings-manager && ccsm
 
 Software Center -> Unity Tweak
 Software Center -> Cairo-Dock
+
+### In case shutdown doesn't work
+cd ~/.config/autostart
+add X-GNOME-Autostart-Delay=20
