@@ -18,3 +18,12 @@ sudo apt-get install xkeycaps
 ```
 xmodmap ~/.xmodmap-`hostname`
 ``
+
+Advanced Tweaks
+---
+```
+sudo apt-get install compizconfig-settings-manager && ccsm
+```
+
+Software Center -> Unity Tweak
+Software Center -> Cairo-Dock
