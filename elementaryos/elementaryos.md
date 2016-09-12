@@ -6,7 +6,8 @@ Currently on version 0.0.4 Fleya
 
 ### More tweaks by install the package. 
 ```sh
-sudo add-apt-repository ppa:mpstark/elementary-tweaks-daily
+[Freya] sudo add-apt-repository ppa:mpstark/elementary-tweaks-daily
+[Loki] sudo add-apt-repository ppa:philip.scott/elementary-tweaks
 sudo apt-get update
 sudo apt-get install elementary-tweaks
 ```

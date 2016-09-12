@@ -31,6 +31,7 @@ Software Center -> Cairo-Dock
 ### In case shutdown doesn't work
 cd ~/.config/autostart
 add X-GNOME-Autostart-Delay=20
+<<<<<<< HEAD
 
 ## Advanced Techniques
 --------------------
@@ -39,3 +40,5 @@ Disable trackpad when typing
 
 Show current process of syndaemon
 - ps -ef | grep syndaemon
+=======
+>>>>>>> 1042ab3f8b004fdc2b0f8e9efe12f4fa3600acee
