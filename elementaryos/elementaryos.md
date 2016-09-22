@@ -258,3 +258,8 @@ Find out where the JDK is intalled.
 ```sh
 readlink -f $(which java)
 ```
+
+### SQLiteman
+```sh
+sudo apt-get install sqliteman
+```

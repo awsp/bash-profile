@@ -1,6 +1,7 @@
 " Avoid using <ESC> key"
 imap jj <Esc>
 imap kj <Esc>l  
+nmap kj <Esc>
 
 " Move cursor even in insert mode"
 inoremap <C-j> <Down>
