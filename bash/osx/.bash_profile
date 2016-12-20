@@ -23,6 +23,12 @@ alias profile="vi /Users/$USER/.bash_profile"
 alias git.origin="git remote -v"
 alias git.origin.set="git remote set-url origin"
 
+# Clear screen
+alias c="clear"
+
+# Workspace
+alias code="cd /Users/$USER/Workspace"
+
 # ULimit
 ulimit -n 10240
 

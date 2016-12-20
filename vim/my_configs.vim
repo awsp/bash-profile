@@ -1,6 +1,9 @@
+"Remap leader key
+let mapleader = ";"
+
 "Remap escape key
 :imap kj <ESC>
-:imap <leader>c <ESC>
+:imap <leader>j <ESC>
 
 "Convert to SJIS
 nnoremap sjis <Esc>:e ++enc=shift-jis<Enter>

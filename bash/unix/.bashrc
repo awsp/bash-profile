@@ -1,11 +1,12 @@
 alias reload="source ~/.bashrc"
 alias profile="vi ~/.bashrc"
 alias doc="cd ~/Documents"
-alias code="cd ~/Code"
+alias code="cd ~/Workspace"
 alias home="cd ~"
 alias open="xdg-open"
 alias server="python -m SimpleHTTPServer 8080"
 alias cls="clear && ls"
+alias c="clear"
 
 # Git related
 alias git.origin="git remote -v"
