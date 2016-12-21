@@ -1,7 +1,13 @@
-" Avoid using <ESC> key"
-imap jj <Esc>
-imap kj <Esc>l  
-nmap kj <Esc>
+"Remap leader key
+let mapleader=";"
+
+"Remap escape key
+:imap kj <ESC>
+:imap <leader>e <ESC>
+
+"Other mappings
+:map <leader>a <Esc>ggVG
+:imap <leader>f <Esc>/
 
 " Move cursor even in insert mode"
 inoremap <C-j> <Down>
@@ -14,8 +20,8 @@ noremap 0 $
 noremap 1 ^
 
 " Move curosr to beginning / ending of a line in insert mode"
-:imap hh <ESC>^i
-:imap kk <ESC>$a
+:imap <leader>i <ESC>I
+:imap <leader>a <ESC>A
 
 " Enter in insert mode"
 nnoremap <Enter> i<CR><ESC>h
