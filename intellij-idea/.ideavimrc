@@ -6,5 +6,4 @@ map <leader>a :action $SelectAll<CR>
 map <leader>b :action GotoDeclaration<CR>
 map <leader>[ :action EditorCodeBlockStart<CR>
 map <leader>] :action EditorCodeBlockEnd<CR>
-imap <leader>e <Esc>
 imap <leader>j <Esc>
