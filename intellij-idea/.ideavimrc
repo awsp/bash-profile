@@ -1,27 +1,10 @@
-"Remap leader key
-let mapleader=";"
+#imap kj <Esc>
+#imap jj <Esc>
 
-"Remap escape key
-:imap kj <ESC>
-:imap <leader>e <ESC>
-
-"Other mappings
-:map <leader>a <Esc>ggVG
-:imap <leader>f <Esc>/
-
-" Move cursor even in insert mode"
-inoremap <C-j> <Down>
-inoremap <C-k> <Up>
-inoremap <C-h> <Left>
-inoremap <C-l> <Right>
-
-" Move cursor to beginning / ending of a line in normal mode"
-noremap 0 $
-noremap 1 ^
-
-" Move curosr to beginning / ending of a line in insert mode"
-:imap <leader>i <ESC>I
-:imap <leader>a <ESC>A
-
-" Enter in insert mode"
-nnoremap <Enter> i<CR><ESC>h
+let mapleader = ";"
+map <leader>a :action $SelectAll<CR>
+map <leader>b :action GotoDeclaration<CR>
+map <leader>[ :action EditorCodeBlockStart<CR>
+map <leader>] :action EditorCodeBlockEnd<CR>
+imap <leader>e <Esc>
+imap <leader>j <Esc>

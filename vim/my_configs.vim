@@ -2,8 +2,8 @@
 let mapleader = ";"
 
 "Remap escape key
-:imap kj <ESC>
-:imap <leader>e <ESC>
+":imap kj <ESC>
+:imap <leader>j <ESC>
 
 "Convert to SJIS
 nnoremap sjis <Esc>:e ++enc=shift-jis<Enter>
