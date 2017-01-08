@@ -1,14 +1,14 @@
 let mapleader = ";"
 
 "Remap escape key
-:imap <leader>j <ESC>
+inoremap <leader>j <ESC>
 
 "Remap directional keys
-:imap <leader>c {}<ESC>
-:imap <leader>b []<ESC>
-:imap <leader>r ()<Esc>
-:imap <leader>h <Esc>^
-:imap <leader>l <Esc>$
+inoremap <leader>c {}<ESC>
+inoremap <leader>b []<ESC>
+inoremap <leader>r ()<Esc>
+inoremap <leader>h <Esc>^
+inoremap <leader>l <Esc>$
 
 "Remap tab key
 nnoremap <leader>t :tabe<cr>
@@ -34,6 +34,11 @@ set tabstop=2
 set shiftwidth=2
 set expandtab
 set number
+set cursorline
+
+"Movement
+nnoremap j gj
+nnoremap k gk
 
 stty ixany
 stty ixoff -ixon
