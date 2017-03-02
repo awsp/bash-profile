@@ -11,7 +11,7 @@ inoremap <leader>h <Esc>^
 inoremap <leader>l <Esc>$
 
 "Select All and Yank!
-inoremap <leader>a <esc>ggVG"+yI
+inoremap <leader>a <esc>ggVG"+y
 
 "Remap tab key
 nnoremap <leader>t :tabe<cr>
