@@ -71,3 +71,6 @@ export LS_COLORS
 ## Vim multi-cursor
 stty ixany
 stty ixoff -ixon
+
+## Find out class 
+alias wc="xprop WM_CLASS"

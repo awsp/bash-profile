@@ -66,3 +66,6 @@ tname() {
 alias ls='ls -lhFa --color'
 LS_COLORS='di=4;96:fi=0:ln=31:pi=5:so=5:bd=5:cd=5:or=31:mi=0:ex=35:*.rpm=90'
 export LS_COLORS
+
+# Find out WM class
+alias wc="xprop WM_CLASS"
