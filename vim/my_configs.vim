@@ -1,5 +1,7 @@
 let mapleader = ";"
 
+set nu
+
 "Remap escape key
 inoremap <leader>j <ESC>
 
@@ -36,7 +38,6 @@ set smartindent
 set tabstop=2
 set shiftwidth=2
 set expandtab
-set number
 set cursorline
 
 "Movement
