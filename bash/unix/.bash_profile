@@ -7,6 +7,7 @@ alias open="xdg-open"
 alias server="python -m SimpleHTTPServer 8080"
 alias cls="clear && ls"
 alias c="clear"
+alias testip="nc -z $1 $2"
 
 # Git related
 alias git.origin="git remote -v"
