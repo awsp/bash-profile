@@ -10,3 +10,6 @@ map <leader>] :action EditorCodeBlockEnd<CR>
 imap <leader>j <Esc>
 imap <leader>h <Esc>I
 imap <leader>l <Esc>A
+
+set rnu
+set nu
