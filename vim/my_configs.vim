@@ -1,5 +1,6 @@
 let mapleader = ";"
 
+set rnu
 set nu
 
 "Remap escape key
