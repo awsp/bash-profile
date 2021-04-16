@@ -4,7 +4,7 @@ set rnu
 set nu
 
 "Remap escape key
-inoremap <leader>j <ESC>
+inoremap <leader>h <ESC>
 
 "Remap directional keys
 inoremap <leader>c {}<ESC>
