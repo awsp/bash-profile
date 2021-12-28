@@ -53,6 +53,11 @@ alias nginx.stop='launchctl unload -w ~/Library/LaunchAgents/homebrew.mxcl.php55
 alias mysql.start='launchctl load -w ~/Library/LaunchAgents/homebrew.mxcl.mysql.plist'
 alias mysql.stop='launchctl unload -w ~/Library/LaunchAgents/homebrew.mxcl.mysql.plist'
 
+# Svelte
+# Usage: 
+#  mkdir new_folder
+#  cd new_folder && sv
+alias sv="npx @roxi/routify init"
 
 # Colorful Terminal
 # https://github.com/awsp/colorful-terminal
