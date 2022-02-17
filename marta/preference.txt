@@ -1,0 +1,11 @@
+behavior {
+    theme "Kon"
+    files {
+        defaultLocation "~/Workspace"
+    }
+}
+keyBindings {
+    "Cmd+Opt+C" "core.path"
+    "Ctrl+Enter" "core.rename"
+    "Cmd+Opt+V" "core.move"
+}
