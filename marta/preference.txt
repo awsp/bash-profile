@@ -1,11 +1,17 @@
 behavior {
-    theme "Kon"
-    files {
-        defaultLocation "~/Workspace"
+    theme "Dark"
+    layout {
+        showActionBar false
+    }
+    table {
+        verticalPadding 3
     }
 }
 keyBindings {
     "Cmd+Opt+C" "core.path"
-    "Ctrl+Enter" "core.rename"
-    "Cmd+Opt+V" "core.move"
+    "Cmd+Opt+2" "core.favorites.add"
+    "Enter" "core.rename"
+    "Cmd+Down" "core.open"
+    "Cmd+F" "core.favorites"
+    "Cmd+Shift+F" "core.favorites"
 }
