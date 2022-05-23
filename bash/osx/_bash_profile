@@ -100,3 +100,33 @@ parse_git_branch() {
 export PS1="$C_LIGHTGREEN\u@$C_BLUE\h $C_PURPLE[\w]$C_LIGHTGREEN\n\$(parse_git_branch) $C_DARKGRAY\$$C_DEFAULT "
 
 export LSCOLORS="fxfxcxdxbxegedabagacad"
+
+
+# Functions
+spot() {
+    mdfind "kMDItemFSName=='*$@*'cd";
+}
+
+f() {
+    find . -maxdepth 1 -iname "*$@*" 
+}
+
+fa() {
+    find . -iname "*$@*"
+}
+
+ff() {
+    find . -type f -maxdepth 1 -iname "*$@*"
+}
+
+fff() {
+    find . -type f -maxdepth 1 -name "*$@*" 
+}
+
+fd() {
+    find . -type d -maxdepth 1 -iname "*$@*"
+}
+
+fdd() {
+    ifind . -type d -maxdepth 1 -name "*$@*"
+}

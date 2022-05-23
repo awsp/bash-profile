@@ -37,3 +37,32 @@ alias code="cd /Users/$USER/Workspace"
 
 # ULimit
 ulimit -n 10240
+
+# Functions
+spot() {
+    mdfind "kMDItemFSName=='*$@*'cd";
+}
+
+f() {
+    find . -maxdepth 1 -iname "*$@*" 
+}
+
+fa() {
+    find . -iname "*$@*"
+}
+
+ff() {
+    find . -type f -maxdepth 1 -iname "*$@*"
+}
+
+fff() {
+    find . -type f -maxdepth 1 -name "*$@*" 
+}
+
+fd() {
+    find . -type d -maxdepth 1 -iname "*$@*"
+}
+
+fdd() {
+    ifind . -type d -maxdepth 1 -name "*$@*"
+}
