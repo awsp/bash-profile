@@ -20,7 +20,7 @@ alias serve="python -m SimpleHTTPServer 7777"
 alias bashreload="source /Users/$USER/.bash_profile"
 
 # Fast-edit of bash_profile
-alias profile="vi /Users/$USER/.bash_profile"
+alias profile="vi /Users/$USER/.zshrc"
 
 # Git related
 alias git.origin="git remote -v"
@@ -33,7 +33,7 @@ alias git.unignore="git update-index --no-skip-worktree"
 alias c="clear"
 
 # Workspace
-alias code="cd /Users/$USER/Workspace"
+alias ws="cd /Users/$USER/Workspace"
 alias svelte.spa="npm create svelte@latest"
 alias vue="npm init vue@latest"
 
