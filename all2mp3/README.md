@@ -5,5 +5,5 @@ All2MP3
 - FFMPEG
 
 ```
-brew install ffmpet
+brew install ffmpeg
 ```
