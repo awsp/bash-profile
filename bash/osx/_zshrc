@@ -41,6 +41,10 @@ svelte() {
   npm create vite@latest $1 -- --template svelte 
 }
 
+# Utils
+alias cpu.temp="sudo powermetrics --samplers smc |grep -i \"CPU die temperature\""
+alias fan.speed="sudo powermetrics --samplers smc |grep -i \"Fan:\""
+
 # ULimit
 ulimit -n 10240
 
