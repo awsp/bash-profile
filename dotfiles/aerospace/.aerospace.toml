@@ -188,7 +188,6 @@ alt-shift-x = 'move-node-to-workspace X'
 alt-shift-y = 'move-node-to-workspace Y'
 alt-shift-z = 'move-node-to-workspace Z'
 alt-shift-space = 'layout floating tiling'
-alt-enter = 'exec-and-forget open -n /Users/anthony.wu/Applications/iTerm.app'
 
 # See: https://nikitabobko.github.io/AeroSpace/commands#workspace-back-and-forth
 alt-tab = 'workspace-back-and-forth'
@@ -229,3 +228,7 @@ run = "layout floating"
 [[on-window-detected]]
 if.app-id = 'org.vim.MacVim'
 run = "layout floating"
+
+[[on-window-detected]]
+if.app-id = 'com.googlecode.iterm2'
+run = "move-node-to-workspace T"
