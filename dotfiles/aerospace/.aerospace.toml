@@ -133,7 +133,7 @@ alt-7 = 'workspace 7'
 alt-8 = 'workspace 8'
 alt-9 = 'workspace 9'
 alt-a = 'workspace A' # In your config, you can drop workspace bindings that you don't need
-alt-b = 'workspace B'
+#alt-b = 'workspace B'
 alt-c = 'workspace C'
 alt-d = 'workspace D'
 alt-e = 'workspace E'
@@ -240,3 +240,15 @@ run = "move-node-to-workspace T"
 [[on-window-detected]]
 if.app-id = 'company.thebrowser.Browser'
 run = "move-node-to-workspace A"
+
+[[on-window-detected]]
+if.app-id = 'com.colliderli.iina'
+run = "layout floating"
+
+[[on-window-detected]]
+if.app-id = 'cx.c3.theunarchiver'
+run = "layout floating"
+
+[[on-window-detected]]
+if.app-id = 'com.electron.dockerdesktop'
+run = "layout floating"
