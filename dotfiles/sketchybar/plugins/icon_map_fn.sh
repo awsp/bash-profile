@@ -29,7 +29,7 @@ function icon_map() {
     icon_result=":airmail:"
     ;;
   "Alacritty")
-    icon_result=":alacritty:"
+    icon_result=":terminal:"
     ;;
   "Alfred")
     icon_result=":alfred:"
@@ -446,7 +446,7 @@ function icon_map() {
     icon_result=":openvpn_connect:"
     ;;
   "Opera")
-    icon_result=":opera:"
+    icon_result="⭕️"
     ;;
   "OrbStack")
     icon_result=":orbstack:"
