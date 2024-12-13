@@ -17,3 +17,6 @@ brew install powerlevel10k
 
 # Broot
 brew install broot
+
+# eza
+brew install eza
