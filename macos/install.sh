@@ -15,4 +15,5 @@ brew install --cask alacritty
 # Powerlevel10k
 brew install powerlevel10k
 
-
+# Broot
+brew install broot
